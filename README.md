@@ -12,8 +12,9 @@ Throughout the article series I present common alternatives to solve the same ta
 
 The following table will list them.
 
-tool / feature         | `master` | `typescript-babel` |
------------------------|----------|--------------------|
-Transpiling with Babel |   x      |  x                 |
-TypeScript             |          |  x                 |
+tool / feature         | `master` | `typescript` | `typescript-tsc` |
+-----------------------|----------|--------------|------------------|
+Transpiling with Babel |   x      |  x           |                  |
+TypeScript             |          |  x           |  x               |
+Transpiling with `tsc` |          |              |  x               |
 
