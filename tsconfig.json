@@ -3,7 +3,11 @@
 		"lib": ["dom", "esnext"],
 		"esModuleInterop": true,
 		"jsx": "react",
-		"outDir": "./dist"
+		"outDir": "./dist",
+		"target": "es2017",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"importHelpers": true
 	},
 	"include": ["./src/**/*"]
 }
