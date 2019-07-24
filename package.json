@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Example code for http://tobias-barth.net/blog/2019/07/Publish-a-modern-JavaScript-or-TypeScript-library/",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
