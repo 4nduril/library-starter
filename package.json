@@ -4,9 +4,11 @@
   "description": "Example code for http://tobias-barth.net/blog/2019/07/Publish-a-modern-JavaScript-or-TypeScript-library/",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "check-types": "tsc --noEmit",
+    "build": "tsc --declaration"
   },
   "repository": {
     "type": "git",
