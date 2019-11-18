@@ -12,9 +12,9 @@ Throughout the article series I present common alternatives to solve the same ta
 
 The following table will list them.
 
-tool / feature         | `master` | `typescript` | `typescript-tsc` |
------------------------|----------|--------------|------------------|
-Transpiling with Babel |   x      |  x           |                  |
-TypeScript             |          |  x           |  x               |
-Transpiling with `tsc` |          |              |  x               |
-
+tool / feature         | `master` | `typescript` | `typescript-tsc` | `node-esm` |
+-----------------------|----------|--------------|------------------|------------|
+Transpiling with Babel |   x      |  x           |                  |  x         |
+TypeScript             |          |  x           |  x               |            |
+Transpiling with `tsc` |          |              |  x               |            |
+Signal NodeJS ESM      |   -      |  -           |  -               |  x         |
