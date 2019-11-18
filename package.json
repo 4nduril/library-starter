@@ -48,4 +48,16 @@
     "@types/react-dom": "^16.8.4",
     "typescript": "^3.5.2"
   }
+  "peerDependencies": {
+    "@babel/runtime-corejs3": "^7.4.5"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Edge versions",
+    "last 2 Opera versions",
+    "last 2 FirefoxAndroid versions",
+    "last 2 iOS version",
+    "last 2 safari version"
+  ]
 }
