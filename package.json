@@ -2,11 +2,12 @@
   "name": "library-starter",
   "version": "1.0.0",
   "description": "Example code for http://tobias-barth.net/blog/2019/07/Publish-a-modern-JavaScript-or-TypeScript-library/",
-  "main": "dist/index.js",
+  "main": "dist/library-starter.js",
   "module": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel -d dist/ src/"
+		"bundle": "webpack",
+    "build": "babel -d dist/ src/ && npm run bundle"
   },
   "repository": {
     "type": "git",
@@ -29,19 +30,22 @@
     "url": "https://github.com/4nduril/library-starter/issues"
   },
   "homepage": "http://tobias-barth.net/blog/2019/07/Publish-a-modern-JavaScript-or-TypeScript-library/",
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.0",
-    "@babel/plugin-transform-runtime": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
-    "@babel/preset-react": "^7.0.0"
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/runtime-corejs3": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "react": "^16.13.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "peerDependencies": {
-    "@babel/runtime-corejs3": "^7.4.5"
+    "@babel/runtime-corejs3": "^7.4.5",
+    "react": "^16.8.6"
   },
   "browserslist": [
     "last 2 Chrome versions",
