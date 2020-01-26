@@ -32,13 +32,17 @@
   },
   "homepage": "http://tobias-barth.net/blog/2019/07/Publish-a-modern-JavaScript-or-TypeScript-library/",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4",
-    "typescript": "^3.5.2"
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.5.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
   }
 }
