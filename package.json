@@ -6,7 +6,7 @@
   "module": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"bundle": "webpack",
+    "bundle": "webpack",
     "build": "babel -d dist/ src/ && npm run bundle"
   },
   "repository": {
@@ -40,7 +40,7 @@
     "@babel/runtime-corejs3": "^7.8.3",
     "babel-loader": "^8.0.6",
     "react": "^16.13.0",
-    "webpack": "^4.41.5",
+    "webpack": "^4.43.0",
     "webpack-cli": "^3.3.10"
   },
   "peerDependencies": {
