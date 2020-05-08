@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "check-types": "tsc --noEmit",
-    "build": "tsc --declaration"
+		"bundle": "webpack",
+    "build": "tsc --declaration && npm run bundle"
   },
   "repository": {
     "type": "git",
