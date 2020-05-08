@@ -10,7 +10,7 @@
     "check-types": "tsc --noEmit",
     "emitDeclarations": "tsc --declaration --emitDeclarationOnly",
     "transpile": "babel -d dist/ --extensions .ts,.tsx src/",
-		"bundle": "webpack",
+    "bundle": "webpack",
     "build": "npm run emitDeclarations && npm run transpile && npm run bundle"
   },
   "repository": {
